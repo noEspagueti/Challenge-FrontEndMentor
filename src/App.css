@@ -4,7 +4,7 @@
     --white: hsl(0, 0%, 100%);
     --gray: hsl(212, 45%, 89%);
     --blue: hsl(220, 15%, 55%);
-    --dark-blue-shadow: hsl(218, 44%, 22%, 0.3);
+    --dark-blue-shadow: hsl(218, 44%, 22%, 0.1);
     --dark-blue: hsl(218, 44%, 22%);
 }
 
@@ -57,6 +57,8 @@ body {
     display: grid;
     text-align: center;
     padding: 5px;
+    grid-template-rows: 10px 100px;
+    row-gap: 60px;
 }
 
 .container__text h1:nth-child(1) {
