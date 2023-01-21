@@ -4,7 +4,7 @@
     --white: hsl(0, 0%, 100%);
     --gray: hsl(212, 45%, 89%);
     --blue: hsl(220, 15%, 55%);
-    --dark-blue-shadow: hsl(218, 44%, 22%, 0.5);
+    --dark-blue-shadow: hsl(218, 44%, 22%, 0.8);
     --dark-blue: hsl(218, 44%, 22%);
 }
 
@@ -32,7 +32,7 @@ body {
 #root {
     background-color: var(--white);
     width: 320px;
-    height: 530px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: -3px 0px 26px 0px var(--dark-blue-shadow);
     overflow: hidden;
